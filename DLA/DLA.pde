@@ -1,6 +1,14 @@
 /*--------------------------------------------------------------------------------
  * DLA: Diffusion Limited Aggregation.
  * From research: Witten & Sander (1983)
+ *
+ * Written by Daniel Jones (2018)
+ *   <http://www.erase.net>
+ *
+ * This program can be freely distributed and modified under the
+ * terms of the MIT License.
+ *   <https://opensource.org/licenses/MIT>
+ *
  *-------------------------------------------------------------------------------*/
 
 /*--------------------------------------------------------------------------------
