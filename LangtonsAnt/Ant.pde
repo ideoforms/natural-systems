@@ -22,19 +22,19 @@ class Ant
     
     if (x < 0 || y < 0 || x >= grid.size || y >= grid.size)
     {
-      noLoop();
+      return;
     }
     
-    if (grid.cells[x][y] == ON)
+    if (grid.cells[x][y] == true)
     {
-      grid.cells[x][y] = OFF;
+      grid.cells[x][y] = false;
       int tmp = y_vel;
       y_vel = -x_vel;
       x_vel = tmp;
     }
     else
     {
-      grid.cells[x][y] = ON;
+      grid.cells[x][y] = true;
       int tmp = y_vel;
       y_vel = x_vel;
       x_vel = -tmp;
